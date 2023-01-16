@@ -34,4 +34,12 @@ body {
 
 #imgsite {
     position: relative;
+    width: 120px;
+    font-weight: bold;
+    color: #fff;
+    background-color: none;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
