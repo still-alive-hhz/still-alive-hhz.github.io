@@ -10,7 +10,6 @@ li {
 }
 
 a:link,a:visited {
-    display: block;
     width: 120px;
     font-weight: bold;
     color: #fff;
