@@ -166,41 +166,41 @@ height:auto;
 }
 
 h1 {
-    font-weight: 400;
-    font-family: "HarmonyOS_Sans", sans-serif;
-    font-size: 80px;
-    color: #e0d3bc
+  font-weight: 400;
+  font-family: "HarmonyOS_Sans", sans-serif;
+  font-size: 80px;
+  color: #e0d3bc
 }
 
 h2 {
-    font-weight: 400;
-    font-family: "HarmonyOS_Sans", sans-serif;
-    font-size: 15px;
-    color: #e0d3bc
+  font-weight: 400;
+  font-family: "HarmonyOS_Sans", sans-serif;
+  font-size: 15px;
+  color: #e0d3bc
 }
 
 h2 span {
-    color: rgba(255,255,255,.6)
+  color: rgba(255,255,255,.6)
 }
 
 h3 {
-    font-family: "HarmonyOS_Sans", sans-serif;
-    font-size: 30px;
-    color: var(--txt-b-pure);
-    transition: .25s
+  font-family: "HarmonyOS_Sans", sans-serif;
+  font-size: 30px;
+  color: var(--txt-b-pure);
+  transition: .25s
 }
 
 h4 {
-    font-family: "HarmonyOS_Sans", sans-serif;
-    color: var(--txt-b-pure);
-    font-size: 28px
+  font-family: "HarmonyOS_Sans", sans-serif;
+  color: var(--txt-b-pure);
+  font-size: 28px
 }
 
 h5 {
-    font-family: "HarmonyOS_Sans", sans-serif;
-    color: var(--txt-b-pure);
-    font-size: 24px;
-    text-align: center
+  font-family: "HarmonyOS_Sans", sans-serif;
+  color: var(--txt-b-pure);
+  font-size: 24px;
+  text-align: center
 }
 
 #about,#log,#work,footer {
