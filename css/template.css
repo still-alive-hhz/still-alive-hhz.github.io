@@ -35,7 +35,7 @@ main {
 
 .bg-img {
     background-attachment: fixed;
-    background-image: url(https://cn.bing.com/th?id=OHR.InukshukLights_ZH-CN0756858983_1920x1080.jpg);
+    background-image: url("/wallpaper/wallpaper.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -76,12 +76,4 @@ a:link,a:visited {
 
 a:hover,a:active {
     background-color: #000;
-}
-
-body {
-    background: url("https://hdqwalls.com/wallpapers/blue-dunes.jpg") no-repeat center center fixed;
-                /*兼容浏览器版本*/
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
