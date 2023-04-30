@@ -15,6 +15,7 @@ body {
     font-size: 16px;
     margin: 0;
     -webkit-tap-highlight-color: transparent
+    
 }
 
 header {
@@ -35,7 +36,7 @@ main {
 
 .bg-img {
     background-attachment: fixed;
-    background-image: url("/wallpaper/wallpaper.webp");
+    background-image: url("https://hdqwalls.com/wallpapers/blue-dunes.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -76,4 +77,12 @@ a:link,a:visited {
 
 a:hover,a:active {
     background-color: #000;
+}
+
+body {
+    background: url("https://hdqwalls.com/wallpapers/blue-dunes.jpg") no-repeat center center fixed;
+                /*兼容浏览器版本*/
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
