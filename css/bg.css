@@ -1,5 +1,5 @@
 body {
-  background-image: ('/wallpaper/bg.JPG');
+  background-image: url('/wallpaper/bg.JPG');
   background-attachment: fixed;
   background-repeat: repeat-y;
   background-size: cover;
