@@ -1,1 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>真理报</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="真理报">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">国内</a></li>
+        <li><a href="#">国际</a></li>
+        <li><a href="#">军事</a></li>
+        <li><a href="#">科技</a></li>
+        <li><a href="#">体育</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+
+    <section class="banner">
+      <h2>头条新闻</h2>
+      <p>这里是头条新闻的概述......</p>
+    </section>
+
+    <div class="content">
+      <section class="left">
+        <h3>左侧新闻</h3>
+        <img src="news1.png" alt="新闻1">
+        <p>左侧新闻1的内容......</p>
+
+        <img src="news2.png" alt="新闻2">  
+        <p>左侧新闻2的内容......</p>
+      </section>
+
+      <section class="right">
+        <h3>右侧新闻</h3>
+        <img src="news3.png" alt="新闻3">
+        <p>右侧新闻3的内容......</p>
+        
+        <img src="news4.png" alt="新闻4">
+        <p>右侧新闻4的内容......</p>
+      </section>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>版权所有 © 真理报</p>
+  </footer>
+
+</body>
+</html>
+```
+
+```css
+/* 样式 */
+
+.banner {
+  background-image: url(banner.jpg);
+}
+
+.content {
+  display: flex;
+}
+
+.left {
+  flex: 1; 
+}
+
+.right {
+  flex: 1;
+}
+
+/* 其他样式 */
