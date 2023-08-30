@@ -1,0 +1,32 @@
+/* 样式 */
+
+body {
+  background-image: url('bg.jpg');
+  background-attachment: fixed;
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
+@media (max-width: 600px) {
+  
+  .content {
+    flex-direction: column;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+}
+
+/* 其他样式 */
+```
+
+这个代码包含了:
+
+- 移动端meta标签
+- 滚动背景图片
+- flex弹性布局
+- 媒体查询
+
+请检查代码,并让我知道如果还需要什么修改或优化。
